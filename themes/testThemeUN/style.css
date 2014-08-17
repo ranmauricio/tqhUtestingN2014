@@ -1,0 +1,82 @@
+/*   
+Theme Name: Test UN
+Description: theme test for un
+Author: Julian Salcedo
+Version: 0.1
+.
+General comments/License Statement if any.
+.
+*/
+
+body
+{
+    position: relative !important;
+}
+.menu-que-es-tenemosquehablar.active
+{
+    border-bottom: 4px solid green !important;
+}
+.menu-de-que-tenemosquehablar.active
+{
+    border-bottom: 4px solid yellow !important;
+}
+.menu-como-vamosahablar.active
+{
+    border-bottom: 4px solid red !important;
+}
+.menu-noticias.active
+{
+    border-bottom: 4px solid blue !important;
+}
+.menu-videos.active
+{
+    border-bottom: 4px solid purple !important;
+}
+.menu-contacto.active
+{
+    border-bottom: 4px solid black !important;
+}
+.affix
+{
+    top: 0; 
+    width: 100% !important;
+}
+.main_container
+{
+	margin-top: 50px;
+}
+#menuPrincipaltqh
+{
+    background: white;
+    border-bottom: 2px gray solid;
+}
+.nextSlide
+{
+    margin: 10px 0 10px 0;
+}
+.slick-slide > a > span
+{
+    background: white;
+    border-bottom: 2.5px solid #769d39;
+    display: block;
+    width: 70%;
+}
+.slick-slide > a > span > .imagen-carr-noticia
+{
+    height: 60px;
+    width: 100%;
+}
+.slick-slide > a > span > .fecha-carr-noticia
+{ 
+    color: #769d39;
+    padding: 5%
+}
+.slick-slide > a > span > .slug-carr-noticia
+{ 
+    padding: 10% 5% 35% 5%
+}
+
+.slide-tqhablar
+{
+    padding-top: 160px;
+}
